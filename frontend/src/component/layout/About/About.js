@@ -1,7 +1,11 @@
 import React from "react";
 import "./aboutSection.css";
-import { Button, Typography} from "@material-ui/core";
-import Facebook from "@material-ui/icons/Facebook";
+import { Button, Typography } from "@material-ui/core";
+import { FaTiktok } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+
 const About = () => {
   const visitInstagram = () => {
     window.location = "https://www.facebook.com/henry.nicole.12382";
@@ -29,14 +33,21 @@ const About = () => {
             </span>
           </div>
           <div className="aboutSectionContainer2">
-            <Typography component="h2">Our Brand</Typography>
-            <a
-              href="https://www.facebook.com/henry.nicole.12382"
-              target="blank"
-            >
-            
-              <Facebook className="facebookSvgIcon" />
-            </a>
+            <Typography component="h2">Our Brands</Typography>
+            <div className="d-flex">
+              <a href="#" target="_blank">
+                <FaFacebook color="blue" className="brandIcon" />
+              </a>
+              <a href="#" target="_blank">
+                <FaInstagramSquare className="brandIcon" style={{ color: '#E1306C', fontSize: '40px' }} />
+              </a>
+              <a href="#" target="_blank">
+                <FaYoutube color="red" className="brandIcon" />
+              </a>
+              <a href="#" target="_blank">
+                <FaTiktok color="black" className="brandIcon" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

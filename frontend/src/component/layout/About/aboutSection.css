@@ -77,13 +77,10 @@
 .aboutSectionContainer2 > a > svg {
   font-size: 4vmax;
 }
-
-.facebookSvgIcon {
-  color: blue;
-}
-
-.instagramSvgIcon {
-  color: rgb(144, 81, 202);
+.brandIcon{
+  width: 30px;
+  height: 30px;
+  padding: 0px 10px;
 }
 
 @media screen and (max-width: 600px) {
