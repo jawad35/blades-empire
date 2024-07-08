@@ -1,0 +1,2 @@
+(this.webpackJsonpfrontend=this.webpackJsonpfrontend||[]).push([[50],{490:function(e,t,i){},575:function(e,t,i){"use strict";i.r(t);i(1),i(490);var r=i(3);t.default=function(){return Object(r.jsx)("footer",{id:"footer",children:Object(r.jsxs)("div",{className:"midFooter",children:[Object(r.jsx)("p",{children:"High Quality is our first priority"}),Object(r.jsx)("p",{children:"Copyrights 2024 \xa9 bladesempire"})]})})}}}]);
+//# sourceMappingURL=50.4b3230b1.chunk.js.map

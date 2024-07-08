@@ -9,21 +9,16 @@ process.on("uncaughtException", (err) => {
 
 // Config
 if (process.env.NODE_ENV !== "PRODUCTION") {
-  require("dotenv").config({ path: "config/config.env" });
-}
-
-
-
-  //   app.use(express.static(path.join(__dirname,"/frontend/build")))
+    app.use(express.static(path.join(__dirname,"/frontend/build")))
   
-  //   app.get("*",(req,res)=>{
-  //     res.sendFile(path.join(__dirname,"frontend","build","index.html"))
-  //   })
-  // }else{
-  //   app.get('/',(req,res)=>{
-  //     res.send("Api is running")
-  //   })
-  // }
+    app.get("*",(req,res)=>{
+      res.sendFile(path.join(__dirname,"frontend","build","index.html"))
+    })
+  }else{
+    app.get('/',(req,res)=>{
+      res.send("Api is running")
+    })
+  }
 
 // Connecting to database
 connectDatabase();
