@@ -25,16 +25,17 @@ const About = () => {
               alt="blades empire"
             />
             {/* <Typography>blades empire</Typography> */}
-            <Button onClick={visitInstagram} color="primary">
+            {/* <Button onClick={visitInstagram} color="primary">
               Visit Facebook
-            </Button>
+            </Button> */}
             <span>
               This is a Eommerce wesbite made by @blades empire.Where you can find your desired Premium Products.
             </span>
           </div>
           <div className="aboutSectionContainer2">
-            <Typography component="h2">Our Brands</Typography>
-            <div className="d-flex">
+            <Typography component="h2">Contact Us to Whatsapp</Typography>
+            <h2>+923233131222</h2>
+            {/* <div className="d-flex">
               <a href="#" target="_blank">
                 <FaFacebook color="blue" className="brandIcon" />
               </a>
@@ -47,7 +48,7 @@ const About = () => {
               <a href="#" target="_blank">
                 <FaTiktok color="black" className="brandIcon" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

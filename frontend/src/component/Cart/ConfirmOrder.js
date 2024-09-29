@@ -90,8 +90,8 @@ const ConfirmOrder = ({ history }) => {
               </p>
               <span>${totalPrice}</span>
             </div>
-
-            <button onClick={proceedToPayment}>Proceed To Payment</button>
+            <button onClick={()=> alert("Thanks for order! Please contact with us to proceed further on this No: +923233131222")}>Proceed To Payment</button>
+            {/* <button onClick={proceedToPayment}>Proceed To Payment</button> */}
           </div>
         </div>
       </div>
